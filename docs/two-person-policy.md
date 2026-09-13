@@ -51,7 +51,7 @@ When a condition with `requires_two_person=true` fires (auto or manual):
 
 ## V1 STATUS: STUB
 
-witness does not yet exist (~/Code/witness/SPEC.md is drafted; no
+witness does not yet exist (~/WanderRepos/repos/witness/SPEC.md is drafted; no
 implementation). scram's V1 ships with `StubWitnessClient`:
 
 - Default outcome: `pending`. This is the SAFE default — it means the

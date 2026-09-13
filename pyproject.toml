@@ -33,8 +33,8 @@ dev = [
 scram = "scram.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/jmcentire/scram"
-Repository = "https://github.com/jmcentire/scram"
+Homepage = "https://github.com/wandercom/scram"
+Repository = "https://github.com/wandercom/scram"
 
 [tool.setuptools.packages.find]
 where = ["src"]
