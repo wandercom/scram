@@ -206,7 +206,7 @@ def create_app(
     async def create_condition(payload: ConditionPayload) -> ConditionView:
         if not is_action_kind_valid(payload.action.kind):
             raise HTTPException(
-                status.HTTP_422_UNPROCESSABLE_ENTITY,
+                422,
                 detail=f"unknown action kind: {payload.action.kind}",
             )
         condition = KillCondition(

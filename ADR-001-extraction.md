@@ -1,7 +1,7 @@
 # ADR-001: scram architecture
 
 **Status:** Accepted (2026-05-06; Claude/Codex/sim collaboration)
-**Source spec:** `~/Code/scram/SPEC.md`
+**Source spec:** `~/WanderRepos/repos/scram/SPEC.md`
 
 ## Context
 
@@ -54,7 +54,7 @@ non-tenant-scoped automatic actions.**
 ### Repo layout
 
 ```
-~/Code/scram/
+~/WanderRepos/repos/scram/
 ├── SPEC.md
 ├── ADR-001-extraction.md
 ├── pyproject.toml
@@ -213,7 +213,7 @@ boots cycle.
 
 scram is net-new; no migration. First milestone (V1):
 
-1. Init `~/Code/scram/`.
+1. Init `~/WanderRepos/repos/scram/`.
 2. Schema migration applied (decide hosting: dedicated Postgres or
    shared cluster).
 3. Implement registry + evaluator + dispatch (mock Baton/Tessera

@@ -7,7 +7,7 @@ authorize the fire before dispatch happens. The mechanism uses witness;
 witness logs the decision and tessera persists the audit trail.
 
 V1 STATUS — STUB. The witness component is a Wave 2 sibling that does
-not exist yet (~/Code/witness/SPEC.md is drafted, no implementation).
+not exist yet (~/WanderRepos/repos/witness/SPEC.md is drafted, no implementation).
 This module documents the integration point and provides a working
 default that prevents accidental dispatch:
 
